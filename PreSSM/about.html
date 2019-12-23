@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="PreSSM"><title>PreSSM</title>
+<link rel="icon" 
+      type="image/png" 
+      href="Images/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:50px; 
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background: rgb(180, 180, 180);
+}
+
+/* Header/Blog Title */
+.header {
+  padding:10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size:0px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 7px solid #D20050;
+  background-color: rgb(243,243,243,0.9);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #D20050;
+  color: white;
+}
+
+/* Left column */
+.leftcolumn {   
+  margin: auto;
+  width: 100%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  }
+  
+  
+/* unvisited link */
+a:link {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #00FFFF;
+  text-decoration: none;
+}
+hr { 
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+    
+    width: 50%;
+    height: 2px;
+    color: #A50021;
+    background-color: #A50021;
+    border: none;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src = "Images/head.png" style='height: 100%; width: 100%; object-fit: contain'/>
+</div>
+
+<div class="topnav">
+  <a href="PreSSM.html">Home</a>
+  <a href="../CoSec.html">CoSec</a>
+  <a href="about.html">About</a>
+  <a href="PreSSM_ReadME.pdf">ReadME</a>
+  <a href="references.html">References</a>
+  <a href="../contact.html">Contact</a>
+  <a href="faq.html">FAQs</a>
+  <a href="../new_user.html" style="float:right">Register</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn" >
+    <div class="card" >
+	
+	  <img src="Images/toolmark.png" alt="PreSSM" style="display: block;margin-left: auto;margin-right: auto;width: 35%;margin-top: 25px;"><br><br>
+	  
+      <h1><center><font color="#A50021">About PreSSM</font></center></h1>
+	  
+      <p align="justify"><br>PreSSM is the web interface of a tool that matches the predicted secondary structure in a protein given it's sequence with the 
+	  secondary structure in the protein's 3D model given it's atomic coordinates. Users can get the prediction of secondary structure 
+	  from either of PSIPRED, CFSSP and NSPA servers. The assignment of secondary structure is based on STRIDE (Structural identification), 
+	  an algorithm for the assignment of protein secondary structure elements given the atomic coordinates of the protein.
+	  </p>
+	  
+	  <p align="justify">
+	  PSI-blast based secondary structure PREDiction (PSIPRED) is a method used to predict protein secondary structure. It uses artificial neural network 
+	  machine learning methods in its algorithm. CFSSP server predicts secondary structure of protein from the amino acid sequence by implementing 
+	  Chou & Fasman algorithm.
+	  </p>
+	  
+	  <p align="justify">At NSPA server, methods using different approaches are combined to predict secondary structure. The first step there is to select the secondary 
+	  structure prediction methods (given below) you want to use. Then, the secondary structure consensus prediction program generates a secondary consensus. 
+	  In the consensus the most present predicted conformational state is reported for each residue.
+	  </p>
+	  
+	  <p>Secondary structure prediction methods available at NSPA server are :<p>
+	  <p>DPM, DSC, GORI, GORIII, GORIV, HNN, MLRC, PHD, PREDATOR, SIMPA96, SOPM, SOPMA.</p>
+	  </p><br>
+	  
+	<h1><center><font color="#A50021">How it works</font></center></h1><br>
+	  <img src="Images/flowchart.png" alt="Flowchart" style="display: block;margin-left: auto;margin-right: auto;width: 70%;margin-top: 20px;"><br><br><br>
+    
+	<h1 id="scores" ><center><font color="#A50021">What the scores tell</font></center></h1><br>
+	
+	<img src="Images/scores.png" alt="Scores" style="display: block;margin-left: auto;margin-right: auto;width: 90%;margin-top: 20px;"><br>
+	
+	<h2><font color="#009900">Match Score</font></h2>
+	<p align="justify">Match score is the percentage of residues that have the same conformational state given in prediction as well as in 3D model 
+	secondary structure assignment. A match is represented by " * " in alignment. For a good agreement between prediction and assignment, 
+	match score should be high</p>
+	
+	<h2><font color="#ff0000">Contradiction Score</font></h2>
+	<p align="justify">Contradiction score is the percentage of residues that have helix conformational state in prediction while sheet conformational 
+	state in 3D model secondary structure assignment or or vice versa. A contradiction is represented by " | " in alignment. For a good 
+	agreement between prediction and assignment, contradiction score should be low.</p>
+	
+	<h2>Secondary structure content</h2>
+	<p align="justify">Helix, Sheet and Coil content is the percentage of residues in respective conformational states in prediction as well 
+	as in 3D model secondary structure assignment. A difference between these percentage is also given to observe deviation between prediction
+	and assignment.</p><br><br>
+	
+	</div>
+ </div>
+ 	  <div style ="background-color: #D20050 ;padding: 20px;width:100%;margin-top: 25px;color: white"> 
+	  <table style="width: 100%;">
+     <tr><td> Copyright &#9400; 2019 Ayaluru Murali | Ankur Chaurasia | All Rights Reserved </td><td style =" float: right;"> Centre for Bioinformatics | Pondicherry University </td></tr>
+	 <tr><td height="50" valign="bottom"> Header background image by <a href="https://pixabay.com/users/DavidZydd-985081/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2484170" target="_blank">David Zydd</a>, Webpage designing learned from <a href="https://www.w3schools.com/" target="_blank">w3schools</a>.</td></tr>
+</table>
+</div>
+</div>
+</body>
+</html>

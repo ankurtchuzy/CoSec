@@ -1,0 +1,209 @@
+Stride
+REM  --------------------------------------------------------------------  1AKI
+REM                                                                        1AKI
+REM  STRIDE: Knowledge-based secondary structure assignment                1AKI
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         1AKI
+REM                                                                        1AKI
+REM  Residue accessible surface area calculation                           1AKI
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 1AKI
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       1AKI
+REM                                                                        1AKI
+REM  ------------------------ General information -----------------------  1AKI
+REM                                                                        1AKI
+HDR  HYDROLASE                               19-MAY-97   1AKI              1AKI
+CMP  MOL_ID: 1;                                                            1AKI
+CMP   MOLECULE: LYSOZYME;                                                  1AKI
+CMP   CHAIN: A;                                                            1AKI
+CMP   EC: 3.2.1.17                                                         1AKI
+SRC  MOL_ID: 1;                                                            1AKI
+SRC   ORGANISM_SCIENTIFIC: GALLUS GALLUS;                                  1AKI
+SRC   ORGANISM_COMMON: CHICKEN;                                            1AKI
+SRC   ORGANISM_TAXID: 9031;                                                1AKI
+SRC   CELL: EGG                                                            1AKI
+AUT  D.CARTER,J.HE,J.R.RUBLE,B.WRIGHT                                      1AKI
+REM                                                                        1AKI
+REM  -------------------- Secondary structure summary -------------------  1AKI
+REM                                                                        1AKI
+CHN  /home/proj/stride/tmp/tmpdQHpOypdb A                                  1AKI
+REM                                                                        1AKI
+REM                .         .         .         .         .               1AKI
+SEQ  1    KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQATNRNTDGS   50          1AKI
+STR        B  HHHHHHHHHHH TTTGGG  HHHHHHHHHHHHTTBTTTEEETTTT                1AKI
+REM                                                                        1AKI
+REM                .         .         .         .         .               1AKI
+SEQ  51   TDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVS  100          1AKI
+STR       EEETTTTEETTTTEETTTTTTT TTTTEEGGGG TTTHHHHHHHHHHHHH               1AKI
+REM                                                                        1AKI
+REM                .         .                                             1AKI
+SEQ  101  DGNGMNAWVAWRNRCKGTDVQAWIRGCRL                       129          1AKI
+STR         TTTTTTHHHHHHHTTT GGGGGTTT                                      1AKI
+REM                                                                        1AKI
+REM                                                                        1AKI
+REM                                                                        1AKI
+LOC  AlphaHelix   ARG     5 A      HIS     15 A                            1AKI
+LOC  AlphaHelix   LEU    25 A      SER     36 A                            1AKI
+LOC  AlphaHelix   ILE    88 A      SER    100 A                            1AKI
+LOC  AlphaHelix   VAL   109 A      CYS    115 A                            1AKI
+LOC  310Helix     TYR    20 A      GLY     22 A                            1AKI
+LOC  310Helix     CYS    80 A      LEU     83 A                            1AKI
+LOC  310Helix     VAL   120 A      ILE    124 A                            1AKI
+LOC  Strand       THR    43 A      ARG     45 A                            1AKI
+LOC  Strand       THR    51 A      TYR     53 A                            1AKI
+LOC  Strand       ILE    58 A      ASN     59 A                            1AKI
+LOC  Strand       CYS    64 A      ASN     65 A                            1AKI
+LOC  Strand       ILE    78 A      PRO     79 A                            1AKI
+LOC  TurnII       LEU    17 A      TYR     20 A                            1AKI
+LOC  TurnI'       SER    36 A      ASN     39 A                            1AKI
+LOC  TurnI        ASN    39 A      ALA     42 A                            1AKI
+LOC  TurnI        ASN    46 A      GLY     49 A                            1AKI
+LOC  TurnI        GLY    54 A      GLN     57 A                            1AKI
+LOC  TurnI        ASN    59 A      TRP     62 A                            1AKI
+LOC  TurnI        SER    60 A      TRP     63 A                            1AKI
+LOC  TurnIV       ASP    66 A      THR     69 A                            1AKI
+LOC  TurnII       THR    69 A      SER     72 A                            1AKI
+LOC  TurnI        ASN    74 A      ASN     77 A                            1AKI
+LOC  TurnVIII     SER    85 A      ILE     88 A                            1AKI
+LOC  TurnII'      ASN   103 A      ASN    106 A                            1AKI
+LOC  TurnI        GLY   104 A      ALA    107 A                            1AKI
+LOC  TurnI        MET   105 A      TRP    108 A                            1AKI
+LOC  TurnVIII     ASN   106 A      VAL    109 A                            1AKI
+LOC  TurnII       CYS   115 A      THR    118 A                            1AKI
+LOC  TurnII       ILE   124 A      CYS    127 A                            1AKI
+LOC  Disulfide    CYS     6 A      CYS    127 A            PDB             1AKI
+LOC  Disulfide    CYS    30 A      CYS    115 A            PDB             1AKI
+LOC  Disulfide    CYS    64 A      CYS     80 A            PDB             1AKI
+LOC  Disulfide    CYS    76 A      CYS     94 A            PDB             1AKI
+REM                                                                        1AKI
+REM  --------------- Detailed secondary structure assignment-------------  1AKI
+REM                                                                        1AKI
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      1AKI
+ASG  LYS A    1    1    C          Coil    360.00    139.70      91.9      1AKI
+ASG  VAL A    2    2    B        Bridge   -102.71    114.41      96.1      1AKI
+ASG  PHE A    3    3    C          Coil    -75.14    146.83      14.2      1AKI
+ASG  GLY A    4    4    C          Coil    -84.00    151.59      35.8      1AKI
+ASG  ARG A    5    5    H    AlphaHelix    -44.51    -56.05      90.0      1AKI
+ASG  CYS A    6    6    H    AlphaHelix    -70.05    -31.16      42.1      1AKI
+ASG  GLU A    7    7    H    AlphaHelix    -65.31    -45.49      90.3      1AKI
+ASG  LEU A    8    8    H    AlphaHelix    -62.26    -51.97       0.0      1AKI
+ASG  ALA A    9    9    H    AlphaHelix    -45.79    -48.91       0.0      1AKI
+ASG  ALA A   10   10    H    AlphaHelix    -65.54    -41.48      30.1      1AKI
+ASG  ALA A   11   11    H    AlphaHelix    -61.59    -46.55       3.8      1AKI
+ASG  MET A   12   12    H    AlphaHelix    -61.85    -37.87       0.8      1AKI
+ASG  LYS A   13   13    H    AlphaHelix    -61.83    -51.09      71.4      1AKI
+ASG  ARG A   14   14    H    AlphaHelix    -62.89    -24.90     176.9      1AKI
+ASG  HIS A   15   15    H    AlphaHelix    -91.61      1.82      45.7      1AKI
+ASG  GLY A   16   16    C          Coil     83.55     24.57      38.6      1AKI
+ASG  LEU A   17   17    T          Turn    -78.97    -22.56       0.0      1AKI
+ASG  ASP A   18   18    T          Turn    -59.78    111.10      74.9      1AKI
+ASG  ASN A   19   19    T          Turn     73.48     11.57     108.1      1AKI
+ASG  TYR A   20   20    G      310Helix    -63.85    124.26      53.9      1AKI
+ASG  ARG A   21   21    G      310Helix     55.34     30.72     149.3      1AKI
+ASG  GLY A   22   22    G      310Helix     88.46     12.09      55.1      1AKI
+ASG  TYR A   23   23    C          Coil   -111.65    116.22      46.9      1AKI
+ASG  SER A   24   24    C          Coil    -64.72    156.89      51.5      1AKI
+ASG  LEU A   25   25    H    AlphaHelix    -48.28    -42.78       1.0      1AKI
+ASG  GLY A   26   26    H    AlphaHelix    -52.04    -35.61       1.7      1AKI
+ASG  ASN A   27   27    H    AlphaHelix    -55.10    -51.72      19.2      1AKI
+ASG  TRP A   28   28    H    AlphaHelix    -62.92    -47.85       0.0      1AKI
+ASG  VAL A   29   29    H    AlphaHelix    -59.62    -46.85       0.0      1AKI
+ASG  CYS A   30   30    H    AlphaHelix    -54.35    -47.73       0.2      1AKI
+ASG  ALA A   31   31    H    AlphaHelix    -59.00    -52.72       0.0      1AKI
+ASG  ALA A   32   32    H    AlphaHelix    -53.96    -40.17       0.0      1AKI
+ASG  LYS A   33   33    H    AlphaHelix    -59.21    -51.85      64.8      1AKI
+ASG  PHE A   34   34    H    AlphaHelix    -85.46    -21.86      71.3      1AKI
+ASG  GLU A   35   35    H    AlphaHelix    -75.66    -53.30      36.4      1AKI
+ASG  SER A   36   36    H    AlphaHelix   -124.63     -5.65      12.2      1AKI
+ASG  ASN A   37   37    T          Turn     56.99     35.27      93.5      1AKI
+ASG  PHE A   38   38    T          Turn     67.94     31.33      12.8      1AKI
+ASG  ASN A   39   39    B        Bridge   -109.78    114.96      53.1      1AKI
+ASG  THR A   40   40    T          Turn    -63.55    -17.27       1.8      1AKI
+ASG  GLN A   41   41    T          Turn   -103.78     -3.81     113.6      1AKI
+ASG  ALA A   42   42    T          Turn    -62.03    135.07      24.7      1AKI
+ASG  THR A   43   43    E        Strand   -135.62    144.74      82.3      1AKI
+ASG  ASN A   44   44    E        Strand   -140.99    128.35      76.9      1AKI
+ASG  ARG A   45   45    E        Strand    -92.48    137.35     138.3      1AKI
+ASG  ASN A   46   46    T          Turn   -113.02    165.41      49.1      1AKI
+ASG  THR A   47   47    T          Turn    -60.44    -34.69     158.4      1AKI
+ASG  ASP A   48   48    T          Turn    -76.17      4.25      62.0      1AKI
+ASG  GLY A   49   49    T          Turn     95.09    -15.62      18.2      1AKI
+ASG  SER A   50   50    C          Coil    -78.31    158.97       0.6      1AKI
+ASG  THR A   51   51    E        Strand   -128.03    141.03       9.8      1AKI
+ASG  ASP A   52   52    E        Strand    -94.48    132.90      24.3      1AKI
+ASG  TYR A   53   53    E        Strand   -120.78    129.40      27.1      1AKI
+ASG  GLY A   54   54    T          Turn     76.90   -161.48       0.0      1AKI
+ASG  ILE A   55   55    T          Turn    -59.30    -30.37       2.8      1AKI
+ASG  LEU A   56   56    T          Turn   -108.61     14.41       0.8      1AKI
+ASG  GLN A   57   57    T          Turn     43.52     61.79      19.2      1AKI
+ASG  ILE A   58   58    E        Strand    -85.42    130.17       2.5      1AKI
+ASG  ASN A   59   59    E        Strand    -81.60    137.31      27.3      1AKI
+ASG  SER A   60   60    T          Turn    -73.53    -16.29       0.0      1AKI
+ASG  ARG A   61   61    T          Turn    -68.57    -44.95      95.0      1AKI
+ASG  TRP A   62   62    T          Turn   -100.39    -38.46     107.8      1AKI
+ASG  TRP A   63   63    T          Turn   -100.89    -43.70      32.3      1AKI
+ASG  CYS A   64   64    E        Strand   -131.31    161.64       0.0      1AKI
+ASG  ASN A   65   65    E        Strand   -101.97    119.25      72.0      1AKI
+ASG  ASP A   66   66    T          Turn   -111.74      2.12      34.6      1AKI
+ASG  GLY A   67   67    T          Turn     68.74      4.79      65.2      1AKI
+ASG  ARG A   68   68    T          Turn   -131.95     20.52     128.1      1AKI
+ASG  THR A   69   69    T          Turn   -114.45    116.79      13.6      1AKI
+ASG  PRO A   70   70    T          Turn    -67.16    138.02      93.1      1AKI
+ASG  GLY A   71   71    T          Turn     74.91     18.23      47.6      1AKI
+ASG  SER A   72   72    T          Turn    -55.40    140.43      38.6      1AKI
+ASG  ARG A   73   73    C          Coil   -108.69    -25.77     154.1      1AKI
+ASG  ASN A   74   74    T          Turn     46.28     55.52      41.9      1AKI
+ASG  LEU A   75   75    T          Turn    -70.01    -19.50      95.4      1AKI
+ASG  CYS A   76   76    T          Turn    -90.09    -11.48       3.5      1AKI
+ASG  ASN A   77   77    T          Turn     61.56     47.58     131.0      1AKI
+ASG  ILE A   78   78    E        Strand   -140.02    155.70      33.1      1AKI
+ASG  PRO A   79   79    E        Strand    -75.46    142.12      68.4      1AKI
+ASG  CYS A   80   80    G      310Helix    -58.77    -38.06       1.0      1AKI
+ASG  SER A   81   81    G      310Helix    -51.74    -31.05      88.0      1AKI
+ASG  ALA A   82   82    G      310Helix    -67.63    -19.61      36.3      1AKI
+ASG  LEU A   83   83    G      310Helix    -78.85     -9.32       1.0      1AKI
+ASG  LEU A   84   84    C          Coil   -100.61      9.96      41.6      1AKI
+ASG  SER A   85   85    T          Turn    -66.59    159.84      55.6      1AKI
+ASG  SER A   86   86    T          Turn    -72.19    -27.71      64.8      1AKI
+ASG  ASP A   87   87    T          Turn    -83.89    124.34      91.6      1AKI
+ASG  ILE A   88   88    H    AlphaHelix    -82.04     -0.88       5.7      1AKI
+ASG  THR A   89   89    H    AlphaHelix    -43.86    -60.15      46.5      1AKI
+ASG  ALA A   90   90    H    AlphaHelix    -51.67    -47.79      26.2      1AKI
+ASG  SER A   91   91    H    AlphaHelix    -61.45    -48.75       4.6      1AKI
+ASG  VAL A   92   92    H    AlphaHelix    -59.63    -46.32       1.2      1AKI
+ASG  ASN A   93   93    H    AlphaHelix    -58.24    -42.93      77.6      1AKI
+ASG  CYS A   94   94    H    AlphaHelix    -67.16    -44.28       1.7      1AKI
+ASG  ALA A   95   95    H    AlphaHelix    -59.34    -37.87       0.0      1AKI
+ASG  LYS A   96   96    H    AlphaHelix    -59.94    -35.85      47.5      1AKI
+ASG  LYS A   97   97    H    AlphaHelix    -70.67    -42.27     101.5      1AKI
+ASG  ILE A   98   98    H    AlphaHelix    -61.15    -43.13       7.6      1AKI
+ASG  VAL A   99   99    H    AlphaHelix    -75.15    -25.90       5.8      1AKI
+ASG  SER A  100  100    H    AlphaHelix    -81.15     -6.22      49.7      1AKI
+ASG  ASP A  101  101    C          Coil    -72.43    -23.00     115.9      1AKI
+ASG  GLY A  102  102    C          Coil    137.10    -24.49      71.0      1AKI
+ASG  ASN A  103  103    T          Turn   -104.14     12.30     115.5      1AKI
+ASG  GLY A  104  104    T          Turn     55.18   -139.19      11.6      1AKI
+ASG  MET A  105  105    T          Turn    -85.17      8.44       0.0      1AKI
+ASG  ASN A  106  106    T          Turn    -65.50    -15.22      32.1      1AKI
+ASG  ALA A  107  107    T          Turn    -62.06    -20.18      52.9      1AKI
+ASG  TRP A  108  108    T          Turn   -103.62    110.69       7.2      1AKI
+ASG  VAL A  109  109    H    AlphaHelix    -60.47    -40.93      64.8      1AKI
+ASG  ALA A  110  110    H    AlphaHelix    -64.77    -32.34       4.2      1AKI
+ASG  TRP A  111  111    H    AlphaHelix    -63.21    -57.02      10.2      1AKI
+ASG  ARG A  112  112    H    AlphaHelix    -51.23    -50.50     112.9      1AKI
+ASG  ASN A  113  113    H    AlphaHelix    -71.24    -40.12     119.6      1AKI
+ASG  ARG A  114  114    H    AlphaHelix   -118.98    -20.67     133.4      1AKI
+ASG  CYS A  115  115    H    AlphaHelix   -105.89    -47.91       0.0      1AKI
+ASG  LYS A  116  116    T          Turn    -55.21    127.54     116.6      1AKI
+ASG  GLY A  117  117    T          Turn     84.94     -0.95      85.6      1AKI
+ASG  THR A  118  118    T          Turn    -99.94    172.06      76.5      1AKI
+ASG  ASP A  119  119    C          Coil    -76.98     81.29      87.0      1AKI
+ASG  VAL A  120  120    G      310Helix    -66.35    -21.32      15.0      1AKI
+ASG  GLN A  121  121    G      310Helix    -58.74    -28.30     113.3      1AKI
+ASG  ALA A  122  122    G      310Helix    -46.72    -36.32      44.6      1AKI
+ASG  TRP A  123  123    G      310Helix    -65.90    -23.36      50.5      1AKI
+ASG  ILE A  124  124    G      310Helix   -111.48     -7.57      36.3      1AKI
+ASG  ARG A  125  125    T          Turn    -68.19    132.83     124.0      1AKI
+ASG  GLY A  126  126    T          Turn     98.11     -2.65      80.8      1AKI
+ASG  CYS A  127  127    T          Turn   -100.15    141.46      21.1      1AKI
+ASG  ARG A  128  128    C          Coil    -88.94     95.54     226.6      1AKI
+ASG  LEU A  129  129    C          Coil   -106.94    360.00      86.6      1AKI
+

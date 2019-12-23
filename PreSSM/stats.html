@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="PreSSM"><title>PreSSM</title>
+<link rel="icon" 
+      type="image/png" 
+      href="Images/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:50px; 
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background: rgb(180, 180, 180);
+}
+
+/* Header/Blog Title */
+.header {
+  padding:10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size:0px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 7px solid #D20050;
+  background-color: rgb(243,243,243,0.9);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #D20050;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: rgb(210, 0, 80,1);
+  align: center;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+   margin: 8px auto;
+  }
+
+input[type=submit]:hover {
+  background-color: rgb(0, 200, 210,0.6);
+  }
+input[type=reset] {
+  background-color: rgb(210, 0, 80,0.8);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  }
+
+input[type=reset]:hover {
+  background-color: rgb(0, 200, 210,0.6);
+  }
+  
+  div {
+  
+  }
+/* unvisited link */
+a:link {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src = "Images/head.png" style='height: 100%; width: 100%; object-fit: contain'/>
+</div>
+
+<div class="topnav">
+  <a href="PreSSM.html">Home</a>
+  <a href="../CoSec.html">CoSec</a>
+  <a href="about.html">About</a>
+  <a href="PreSSM_ReadME.pdf">ReadME</a>
+  <a href="references.html">References</a>
+  <a href="../contact.html">Contact</a>
+  <a href="faq.html">FAQs</a>
+  <a href="stats.html">Stats</a>
+  <a href="../new_user.html" style="float:right">Register</a>
+</div>
+<div class = 'card'>
+<center><h2><font color="red">Restricted Access</font></h2>
+<p>This section is only for the administrators</p></center>
+</div>
+<div style="background-color: rgb(180, 180, 180);width:100%">
+<div style = "border-radius: 5px; background-color: #f2f2f2; padding: 20px;margin-top: 25px;width:40%; margin: auto;">
+  
+  <form action="\cgi-bin\PreSSM\stats.pl" method="post">
+    
+	<label for="name">Admin username</label>
+    <input id ="name" type="text" name="name" size="30" required placeholder="Administrator">
+	<label for="pass">Admin password</label>
+	<input id="pass" type="password" name="password" size="30" required placeholder="Password" style = "width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;"><br>
+	  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>
+<div style ="background-color: #D20050 ;padding: 20px;width:100%;margin-top: 25px;color: white"> 
+	  <table style="width: 100%;">
+     <tr><td> Copyright &#9400; 2019 Ayaluru Murali | Ankur Chaurasia | All Rights Reserved </td><td style =" float: right;"> Centre for Bioinformatics | Pondicherry University </td></tr>
+	 <tr><td height="50" valign="bottom"> Header background image by <a href="https://pixabay.com/users/DavidZydd-985081/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2484170" target="_blank">David Zydd</a>, Webpage designing learned from <a href="https://www.w3schools.com/" target="_blank">w3schools</a>.</td></tr>
+</table>
+</div>
+</body>
+</html>

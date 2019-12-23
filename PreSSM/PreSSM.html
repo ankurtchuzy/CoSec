@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="PreSSM"><title>PreSSM</title>
+<link rel="icon" 
+      type="image/png" 
+      href="Images/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:50px; 
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background: rgb(180, 180, 180);
+}
+
+/* Header/Blog Title */
+.header {
+  padding:10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size:0px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 7px solid #D20050;
+  background-color: rgb(243,243,243,0.9);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #D20050;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  }
+  
+/* prediction method buttons */
+ .button {
+  background-color: rgb(0, 200, 210,0.5);
+  color: rgb(60, 60, 60);
+  padding: 28px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 16px;
+  width: 25%;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 10px solid #e7e7e7;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: rgb(210, 0, 80,0.8);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;}
+    
+input[type=text] {
+  width: 250px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 30%;
+}
+
+/* unvisited link */
+a:link {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #00FFFF;
+  text-decoration: none;
+}
+input[type=submit] {
+  background-color: #D20050;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  }
+
+input[type=submit]:hover {
+  background-color: rgb(0, 200, 210,0.6);
+  }
+input[type=reset] {
+  background-color: #D20050;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  }
+
+input[type=reset]:hover {
+  background-color: rgb(0, 200, 210,0.6);
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src = "Images/head.png" style='height: 100%; width: 100%; object-fit: contain'/>
+</div>
+
+<div class="topnav">
+  <a href="PreSSM.html">Home</a>
+  <a href="../CoSec.html">CoSec</a>
+  <a href="about.html">About</a>
+  <a href="PreSSM_ReadME.pdf">ReadME</a>
+  <a href="references.html">References</a>
+  <a href="../contact.html">Contact</a>
+  <a href="faq.html">FAQs</a>
+  <a href="stats.html">Stats</a>
+  <a href="../new_user.html" style="float:right">Register</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <center><h1><center>Welcome to PreSSM web interface</h1>
+      <p>This web interface matches the predicted secondary structures in a protein given it's sequence with secondary structure in the protein's 3D model given it's atomic coordinates.</p>
+	  <p>Users can get secondary structure prediction from either of PSIPRED, CFSSP and NSPA servers. The assignment of secondary structure is based on STRIDE (Structural identification), an algorithm for the assignment of protein secondary structure elements given the atomic coordinates of the protein.</p></center>
+    </div>
+    <div class="card">
+      <center><h2>We Require some inputs</h2></center>
+      <p>Select a method to predict secondary structure. Clicking on names will redirect you to the server. Once there, copy and paste your protein sequence as instructed. To know more about these servers visit our references section.</p>
+	<div style = "padding: 20px; text-align: center;" >
+	<a href="http://bioinf.cs.ucl.ac.uk/psipred_new/" target="_blank"><button class="button" >PSIPRED</button></a>
+	<a href="http://www.biogem.org/tool/chou-fasman/index.php" target="_blank"><button class="button">CFSSP</button></a>
+	<a href="https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_seccons.html" target="_blank"><button class="button">NSPA</button></a>
+	</div>
+	  <p>In case of PSIPRED you need to download Horiz format output file and paste the content in the textarea below. For rest of the two, just copy and paste the resulting alignments displayed on webpages in the textarea below. For more information on how to get and copy prediction follow ReadME document.</p>
+	  <form action="\cgi-bin\PreSSM\process.pl" method="post" >
+	     <textarea name="prediction" required placeholder="Copy and paste prediction output"></textarea>
+		 <p>Now you need to copy and paste the atomic coordinates of protein's 3D model in the textarea below. Make sure that coordinates are of the same protein as given for prediction.</p>
+		 <textarea rows=8 cols=100 name="pdbfile" required placeholder ="Copy and paste atomic coordinates of 3D model"></textarea><br>
+		 
+		 <p>Please suggest a name for this task</p>
+		 <p><input type="text" name="task" size="30" required></p>
+		 <p>Enter your username</p>
+		 <p><input type="text" name="username" size="30" required>&nbsp&nbsp New user? &nbsp&nbsp<a href="../new_user.html" target="_blank">Register here</a></p>
+		 <center><p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p></center>
+      </form>
+      </div>
+	  <div style ="background-color: #D20050;padding: 20px;width:100%;margin-top: 25px;color: white"> 
+	  <table style="width: 100%;">
+     <tr><td> Copyright &#9400; 2019 Ayaluru Murali | Ankur Chaurasia | All Rights Reserved </td><td style =" float: right;"> Centre for Bioinformatics | Pondicherry University </td></tr>
+	 <tr><td height="50" valign="bottom"> Header background image by <a href="https://pixabay.com/users/DavidZydd-985081/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2484170" target="_blank">David Zydd</a>, Webpage designing learned from <a href="https://www.w3schools.com/" target="_blank">w3schools</a>.</td></tr>
+</table>
+</div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,239 @@
+*Usernames,Job names,Prediction method,Protein length,Time,Status,Error message
+
+ishita895,test,848,Wed Mar 27 14:15:57 2019,,,
+ankurtchuzy,new job,848,Wed Mar 27 14:19:20 2019,,,
+ankurtchuzy,new job,848,Wed Mar 27 14:19:38 2019,,,
+ankurtchuzy,chotu,848,Wed Mar 27 14:24:22 2019,,,
+ankurtchuzy,chotu,848,Wed Mar 27 14:32:24 2019,,,
+blah,chotu,848,Wed Mar 27 14:50:22 2019,,,
+blah,chotu,848,Wed Mar 27 15:00:32 2019,successful,,
+blah,chotu,848,Wed Mar 27 15:00:36 2019,successful,,
+bla,chotu,,Wed Mar 27 15:01:08 2019,failed,,
+invalid username,chotu,,Wed Mar 27 15:02:33 2019,failed,,
+blah,chotu,mismatch,Wed Mar 27 15:08:11 2019,failed,,
+invalid username,chotu,unknown,Wed Mar 27 15:08:41 2019,failed,,
+ankurtchuzy,chotu,848,Wed Mar 27 17:36:25 2019,successful,,
+ankurtchuzy,chotu,848,Wed Mar 27 22:00:56 2019,successful,,
+ishita895,chotu,848,Wed Mar 27 22:01:11 2019,successful,,
+ankurtchuzy,ankur,848,Thu Mar 28 11:12:54 2019,successful,,
+ankurtchuzy,new1,848,Thu Mar 28 12:22:09 2019,successful,,
+invalid username,samarth,unknown,Thu Mar 28 12:27:29 2019,failed,,
+sam,samarth,848,Thu Mar 28 12:27:55 2019,successful,,
+ankurtchuzy,new,848,Thu Mar 28 12:40:48 2019,successful,,
+ankurtchuzy,new,848,Thu Mar 28 13:04:46 2019,successful,,
+Officer_Swarez,my first task,848,Thu Mar 28 13:08:24 2019,successful,,
+ankurtchuzy,new1,848,Thu Mar 28 15:01:27 2019,successful,,
+ankurtchuz,new1,848,Fri Mar 29 13:21:23 2019,successful,,
+invalid username,new1,unknown,Fri Mar 29 14:24:42 2019,failed,,
+ankurtchuzy,new1,848,Fri Mar 29 14:24:54 2019,successful,,
+ankurtchuzy,new website,848,Fri Mar 29 19:28:13 2019,successful,,
+priti,mera pehla,848,Fri Mar 29 21:47:49 2019,successful,,
+invalid username,fa,unknown,Fri Mar 29 22:00:51 2019,failed,,
+ankurtchuzy,satarday,mismatch,Sat Mar 30 10:58:45 2019,failed,,
+ankurtchuzy,satarday,848,Sat Mar 30 10:59:28 2019,successful,,
+ankurtchuzy,new color,848,Sat Mar 30 15:03:33 2019,successful,,
+ankurtchuzy,new color,848,Sat Mar 30 15:35:11 2019,successful,,
+ankurtchuzy,new color,848,Sat Mar 30 15:35:57 2019,successful,,
+ankurtchuzy,jai sree ram,848,Sat Mar 30 18:27:48 2019,successful,,
+ankurtchuzy,some new features,848,Sat Mar 30 18:33:47 2019,successful,,
+ankurtchuzy,some new features,848,Sat Mar 30 18:35:04 2019,successful,,
+ishita895,subashree,848,Sat Mar 30 18:38:29 2019,successful,,
+invalid username,Aa,unknown,Sat Mar 30 18:46:48 2019,failed,,
+tamil,joshua,848,Sat Mar 30 18:57:01 2019,successful,,
+invalid username,deepak first,unknown,Sat Mar 30 19:12:19 2019,failed,,
+deepak95,deepak first,848,Sat Mar 30 19:12:36 2019,successful,,
+deepak95,deepak first,848,Sat Mar 30 19:29:12 2019,successful,,
+ishita895,subashree,848,Sat Mar 30 19:29:16 2019,successful,,
+ishita895,subashree,848,Sat Mar 30 19:30:40 2019,successful,,
+deepak95,deepak first,848,Sat Mar 30 19:30:52 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 20:26:54 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:09:32 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:10:57 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:11:30 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:11:49 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:12:19 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:12:38 2019,successful,,
+ankurtchuzy,1aki,129,Sat Mar 30 21:15:23 2019,successful,,
+ankurtchuzy,testing phase,848,Sat Mar 30 22:13:35 2019,successful,,
+ankurtchuzy,bhavi,848,Sat Mar 30 23:06:30 2019,successful,,
+ankurtchuzy,bhavi,848,Sat Mar 30 23:17:23 2019,successful,,
+ankurtchuzy,right input,129,Sun Mar 31 01:44:31 2019,successful,,
+ankurtchuzy,right input,129,Sun Mar 31 01:46:29 2019,successful,none,
+ankurtchuzy,right input,129,Sun Mar 31 01:52:26 2019,successful,none,
+ankurtchuzy,right input,129,Sun Mar 31 01:54:51 2019,successful,none,
+ankurtchu,wrong username,,Sun Mar 31 01:56:55 2019,failed,invalid username,
+ankurtchuzy,wrong prediction file,122,Sun Mar 31 01:58:51 2019,failed,pred assign prot seq match fail,
+ankurtchuzy,wrong prediction file,120,Sun Mar 31 01:59:44 2019,failed,pred assign prot seq match fail,
+ankurtchuzy,wrong prediction file,,Sun Mar 31 02:01:54 2019,failed,method detection failed,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:03:22 2019,failed,pred assign prot seq match fail,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:08:35 2019,failed,pred assign prot seq match fail,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:09:39 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:17:54 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:19:29 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:20:18 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:21:36 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:22:10 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:25:13 2019,successful,none,
+ankurtchuzy,wrong prediction file,129,Sun Mar 31 02:27:18 2019,successful,none,
+ankurtchuzy,new add,nspa,848,Sun Mar 31 16:40:20 2019,successful,none
+ankurtchuzy,new add,nspa,848,Sun Mar 31 16:44:05 2019,successful,none
+ankurtchuzy,new add,nspa,848,Sun Mar 31 16:47:26 2019,successful,none
+ankurtchuzy,new add,nspa,848,Sun Mar 31 16:55:43 2019,successful,none
+ankurtchuzy,new add,nspa,848,Sun Mar 31 16:56:30 2019,successful,none
+ankurtchuzy,new add,NSPA,848,Sun Mar 31 16:59:21 2019,successful,none
+ankurtchuzy,morning,PSIPRED,848,Mon Apr  1 13:15:25 2019,successful,none
+ankur,morning,,,Mon Apr  1 13:23:44 2019,failed,invalid username
+ankurtchuzy,morning,PSIPRED,844,Mon Apr  1 13:24:33 2019,failed,pred assign prot seq match fail
+ankurtchuzy,morning,,,Mon Apr  1 13:26:21 2019,failed,method detection failed
+bhanu,bhanu,,,Mon Apr  1 13:40:31 2019,failed,invalid username
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:12:30 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:16:40 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:18:51 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:22:46 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:23:33 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:24:45 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:25:05 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:26:20 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:27:09 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:27:46 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:30:02 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:31:38 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:33:40 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:34:39 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:37:49 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:39:32 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:44:23 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:44:46 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:44:57 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:46:46 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:51:13 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:52:26 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:53:41 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:54:42 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:55:19 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:56:28 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:57:01 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:57:34 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:58:04 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 01:59:53 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 02:00:38 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 02:01:13 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 02:08:32 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 02:09:01 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 02:09:49 2019,successful,none
+ankurtchuzy,new1,PSIPRED,848,Tue Apr  2 02:10:21 2019,successful,none
+
+ankurtchuzy,test,PSIPRED,848,Tue Apr  2 02:36:27 2019,successful,none
+ankurtchuzy,new,CFSSP,129,Tue Apr  2 13:16:05 2019,successful,none
+ankur,new,,,Tue Apr  2 13:16:27 2019,failed,invalid username
+ankurtchuzy,new,CFSSP,129,Tue Apr  2 13:16:47 2019,successful,none
+ankurtchuzy,tuesday,CFSSP,848,Tue Apr  2 16:05:12 2019,successful,none
+adadf,adda,,,Tue Apr  2 16:33:44 2019,failed,invalid username
+,,,,Tue Apr  2 23:41:07 2019,failed,invalid username
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:23:57 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:25:35 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:26:54 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:36:34 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:36:49 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:37:03 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:40:20 2019,successful,none
+ankurtchuzy,directory test,PSIPRED,848,Wed Apr  3 00:41:16 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:41:51 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:46:45 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:49:05 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:51:16 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:51:46 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:55:45 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 00:57:02 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 01:07:08 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 01:07:45 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 01:11:54 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 01:18:06 2019,successful,none
+ishita895,directory test,PSIPRED,848,Wed Apr  3 01:18:56 2019,successful,none
+ankurtchuzy,check,PSIPRED,848,Thu Apr  4 13:00:36 2019,successful,none
+ankurtchuzy,check,PSIPRED,848,Thu Apr  4 13:11:40 2019,successful,none
+ankurtchuzy,check,PSIPRED,848,Thu Apr  4 13:51:36 2019,successful,none
+ankurtchuzy,testing,PSIPRED,848,Thu Apr  4 19:01:23 2019,successful,none
+Username,Some task name,CFSSP,129,Fri Apr  5 12:16:19 2019,successful,none
+username,Using CFSSP,CFSSP,129,Fri Apr  5 12:29:30 2019,successful,none
+username,Using CFSSP,CFSSP,129,Fri Apr  5 12:58:24 2019,successful,none
+username,Using CFSSP,CFSSP,129,Fri Apr  5 13:12:45 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:39:56 2019,successful,none
+,,,,Fri Apr  5 16:40:43 2019,failed,invalid username
+,,,,Fri Apr  5 16:40:57 2019,failed,invalid username
+,,,,Fri Apr  5 16:41:18 2019,failed,invalid username
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:43:11 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:47:57 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:49:18 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:50:25 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:51:04 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 16:51:59 2019,successful,none
+ankurtchuzy,1aki,CFSSP,129,Fri Apr  5 17:04:35 2019,successful,none
+ankurtchuzy,test,CFSSP,129,Mon Apr  8 19:39:54 2019,successful,none
+ankurtchuzy,test,CFSSP,129,Mon Apr  8 20:25:59 2019,successful,none
+ankurtchuzy,matching,PSIPRED,129,Wed Apr 17 10:33:51 2019,successful,none
+ankurtchuzy,matching,PSIPRED,129,Wed Apr 17 14:57:04 2019,successful,none
+ankurtchuzy,matching,PSIPRED,129,Wed Apr 17 15:04:57 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 17:25:42 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 17:34:20 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:04:22 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:06:11 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:08:47 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:09:20 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:10:23 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:14:39 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:20:53 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:27:55 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:28:53 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:47:44 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:49:40 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:49:51 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:50:12 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:51:05 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:52:26 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:53:29 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:55:51 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:56:14 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 18:57:06 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 19:00:18 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 19:00:47 2019,successful,none
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 21:33:27 2019,successful,none
+ankurtch,aa,,,Thu Apr 18 21:33:56 2019,failed,invalid username
+ankurtchuzy,aa,PSIPRED,124,Thu Apr 18 21:34:29 2019,failed,pred assign prot seq match fail
+ankurtchuzy,aa,,,Thu Apr 18 21:35:13 2019,failed,method detection failed
+ankurtchuzy,aa,,,Thu Apr 18 21:36:13 2019,failed,method detection failed
+ankurtchuzy,aa,,,Thu Apr 18 21:37:09 2019,failed,method detection failed
+ankurtchuzy,aa,PSIPRED,129,Thu Apr 18 21:45:31 2019,successful,none
+ankurtchuzy,sdd,PSIPRED,129,Thu Apr 18 22:07:42 2019,successful,none
+ankurtchuzy,morning,CFSSP,848,Fri Apr 19 09:40:26 2019,successful,none
+ankurtchuzy,morning,CFSSP,466,Fri Apr 19 16:56:40 2019,failed,sequence match fail
+ankurtchuzy,morning,CFSSP,466,Fri Apr 19 17:09:53 2019,failed,sequence match fail
+ankurtchuzy,morning,CFSSP,466,Fri Apr 19 17:10:56 2019,failed,sequence match fail
+ankurtchuzy,morning,NSPA,129,Fri Apr 19 17:13:58 2019,successful,none
+aheli,something,NSPA,129,Fri Apr 19 18:35:34 2019,successful,none
+ahel,something,,,Fri Apr 19 18:36:47 2019,failed,invalid username
+aheli,something,NSPA,,Fri Apr 19 18:37:10 2019,failed,length mismatch
+aheli,something,NSPA,129,Fri Apr 19 18:37:35 2019,failed,sequence match fail
+ankurtchuzy,morning,PSIPRED,848,Mon Apr 22 11:03:36 2019,successful,none
+ankurtchuzy,morning,PSIPRED,848,Mon Apr 22 11:08:47 2019,successful,none
+ankurtchuzy,morning,PSIPRED,848,Mon Apr 22 11:10:33 2019,successful,none
+ankurtchuzy,morning,PSIPRED,848,Mon Apr 22 11:11:12 2019,successful,none
+ankurtchuzy,morning,PSIPRED,848,Mon Apr 22 11:55:54 2019,successful,none
+ankurtchuzy,asd,PSIPRED,848,Mon Apr 22 13:19:36 2019,successful,none
+xv,xv,,,Mon Apr 22 13:27:06 2019,failed,invalid username
+xv,xv,,,Mon Apr 22 13:31:00 2019,failed,invalid username
+ankurtchuzy,new,CFSSP,129,Mon Apr 22 19:02:06 2019,successful,none
+ankurtchuzy,new,CFSSP,129,Mon Apr 22 19:04:34 2019,successful,none
+ankurtchuzy,aa,PSIPRED,848,Mon Apr 22 19:18:59 2019,successful,none
+ankurtchuz,aa,,,Mon Apr 22 19:23:18 2019,failed,invalid username
+ankurtchuzy,aa,PSIPRED,847,Mon Apr 22 19:26:45 2019,failed,sequence match fail
+ankurtchuzy,aa,PSIPRED,848,Mon Apr 22 19:27:13 2019,failed,sequence match fail
+ankurtchuzy,aa,PSIPRED,848,Mon Apr 22 19:27:38 2019,successful,none
+ankurtchuzy,abhi,CFSSP,129,Mon Apr 22 21:28:05 2019,successful,none
+svf,tshrt,,,Mon Apr 22 21:53:44 2019,failed,invalid username
+Ankurpchuvy,trail ,,,Mon Apr 22 22:15:27 2019,failed,invalid username
+ishita895,trail ,CFSSP,129,Mon Apr 22 22:16:09 2019,successful,none
+fhgfdhgth,gfhgf,,,Tue Apr 23 09:39:52 2019,failed,invalid username
+admin,gfhgf,,,Tue Apr 23 09:40:11 2019,failed,invalid username
+test,gfhgf,,,Tue Apr 23 09:40:23 2019,failed,invalid username
+ankur,gfhgf,,,Tue Apr 23 09:40:36 2019,failed,invalid username

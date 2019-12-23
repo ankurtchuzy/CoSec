@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="CompASS"><title>CompASS</title>
+<link rel="icon" 
+      type="image/png" 
+      href="Images/com_logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:50px; 
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background: rgb(180, 180, 180);
+}
+
+/* Header/Blog Title */
+.header {
+  padding:10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size:0px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 7px solid #000033;
+  background-color: rgb(243,243,243,0.9);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #000033;
+  color: white;
+}
+
+/* Left column */
+.leftcolumn {   
+  margin: auto;
+  width: 100%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  }
+  
+  
+/* unvisited link */
+a:link {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #00FFFF;
+  text-decoration: none;
+}
+hr { 
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+    
+    width: 50%;
+    height: 2px;
+    color: #A50021;
+    background-color: #A50021;
+    border: none;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src = "Images/compass.png" style='height: 100%; width: 100%; object-fit: contain'/>
+</div>
+
+<div class="topnav">
+  <a href="CompASS.html">Home</a>
+  <a href="../CoSec.html">CoSec</a>
+  <a href="about.html">About</a>
+  <a href="CompASS_ReadME.pdf">ReadME</a>
+  <a href="references.html">References</a>
+  <a href="../contact.html">Contact</a>
+  <a href="faq.html">FAQs</a>
+  <a href="../new_user.html" style="float:right">Register</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn" >
+    <div class="card" >
+	
+	  <img src="Images/com_toolmark.png" alt="CompASS" style="display: block;margin-left: auto;margin-right: auto;width: 40%;margin-top: 25px;"><br>
+	  
+      <h1><center><font color="#002060">About CompASS</font></center></h1>
+	  
+      <p align="justify"><br>CompASS is a tool that matches the secondary structure elements of a protein with the secondary structure elements 
+	  of the same protein in a different state given their atomic coordinates. Users can submit the coordinate files (pdb files) of the protein along 
+	  with a name to make their identification easier in results.
+	  </p>
+	  
+	  <p align="justify">
+	  The assignment of secondary structure is based on STRIDE (Structural identification), an algorithm for the assignment of protein secondary 
+	  structure elements given the atomic coordinates of the protein. The assigned conformations are : Alpha helix, 3-10 helix, PI-helix, Extended conformation,
+      Isolated bridge, Turn and Coil.
+	  </p><br>
+	  
+	  
+	<h1><center><font color="#002060">How it works</font></center></h1><br>
+	  <img src="Images/flowchart.png" alt="Flowchart" style="display: block;margin-left: auto;margin-right: auto;width: 60%;margin-top: 20px;"><br><br><br>
+    
+	<h1 id="scores" ><center><font color="#002060">What the scores tell</font></center></h1><br>
+	
+	<img src="Images/scores.png" alt="Scores" style="display: block;margin-left: auto;margin-right: auto;width: 90%;margin-top: 20px;"><br>
+	
+	<h2><font color="#002060">Differing Score</font></h2>
+	<p align="justify">Differing Score is the percentage of residues that have different secondary structure conformation in the given two 
+	states of protein. Residues that differ in conformation are represented by " * " in alignment.</p>
+	
+	<p align="justify">The content percentage of individual secondary structure conformation (Alpha helix, 3-10 helix, PI-helix, Extended conformation,
+      Isolated bridge, Turn and Coil) in both the states and the difference between them is also given.</p><br><br>
+	
+	</div>
+ </div>
+ 	  <div style ="background-color: #000033 ;padding: 20px;width:100%;margin-top: 25px;color: white"> 
+	  <table style="width: 100%;">
+     <tr><td> Copyright &#9400; 2019 Ayaluru Murali | Ankur Chaurasia | All Rights Reserved </td><td style =" float: right;"> Centre for Bioinformatics | Pondicherry University </td></tr>
+	 <tr><td height="50" valign="bottom">Header background image by <a href="https://pixabay.com/users/DavidZydd-985081/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2484170" target="_blank">David Zydd</a>, Webpage designing learned from <a href="https://www.w3schools.com/" target="_blank">w3schools</a>.</td></tr>
+</table>
+</div>
+</div>
+</body>
+</html>

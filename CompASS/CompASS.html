@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="CompASS"><title>CompASS</title>
+<link rel="icon" 
+      type="image/png" 
+      href="Images/com_logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:50px; 
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background: rgb(180, 180, 180);
+}
+
+/* Header/Blog Title */
+.header {
+  padding:10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size:0px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 7px solid #000033;
+  background-color: rgb(243,243,243,0.9);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #000033;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  }
+
+ textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;}
+    
+input[type=text] {
+  width: 250px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 30%;
+}
+
+/* unvisited link */
+a:link {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606060;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #00FFFF;
+  text-decoration: none;
+}
+input[type=submit] {
+  background-color: #000033;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  }
+
+input[type=submit]:hover {
+  background-color: #808080;
+  }
+input[type=reset] {
+  background-color: #000033;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  }
+
+input[type=reset]:hover {
+  background-color: #808080;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src = "Images/compass.png" style='height: 100%; width: 100%; object-fit: contain'/>
+</div>
+
+<div class="topnav">
+  <a href="CompASS.html">Home</a>
+  <a href="../CoSec.html">CoSec</a>
+  <a href="about.html">About</a>
+  <a href="CompASS_ReadME.pdf">ReadME</a>
+  <a href="references.html">References</a>
+  <a href="../contact.html">Contact</a>
+  <a href="faq.html">FAQs</a>
+  <a href="../PreSSM/stats.html">Stats</a>
+  <a href="../new_user.html" style="float:right">Register</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <center><h1><center><font color="#002060">Welcome to CompASS tool</font></h1>
+      <p>This web interface allows the users to compare the secondary structure elements in the given two states of the same protein.</p>
+	  <p>You just need to provide the 3D coordinates (pdb file) of the two states of protein and give name to the states for convenience. 
+	     The assignment of secondary structure is performed by STRIDE (Structural identification), an algorithm that assigns protein secondary structure elements given the atomic coordinates.</p></center>
+    </div>
+    <div class="card">
+      <center><h2>We require coordinates of the two states of protein</h2></center><br>
+      
+	     <form action="\cgi-bin\CompASS\process.pl" method="post" >
+		 <p>You can give a name to the states (upto 10 characters) or let the tool use default names.</p>
+		 <h3><font color="#002060">First state,</font></h3>
+		 <p>Name : <input type="text" name="name_one" size="30" maxlength="10" value="state1" required></p>
+		 <p>Copy and paste the atomic coordinates of the first state of protein.</p>
+	     <textarea rows=8 cols=100 name="state_one" required placeholder="Coordinates of first state"></textarea>
+		 
+         <h3><font color="#002060">Second state,</font></h3>
+		 <p>Name : <input type="text" name="name_two" size="30" maxlength="10" value="state2" required></p>		 
+		 <p>Copy and paste the atomic coordinates of the second state of protein.</p>
+	     <textarea rows=8 cols=100 name="state_two" required placeholder="Coordinates of second state"></textarea>
+		 		 
+		 <p>Enter your username</p>
+		 <p><input type="text" name="username" size="30" required>&nbsp&nbsp New user? &nbsp&nbsp<a href="../new_user.html" target="_blank">Register here</a></p>
+		 <center><p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p></center>
+      </form>
+      </div>
+	  <div style ="background-color: #000033;padding: 20px;width:100%;margin-top: 25px;color: white"> 
+	  <table style="width: 100%;">
+     <tr><td> Copyright &#9400; 2019 Ayaluru Murali | Ankur Chaurasia | All Rights Reserved </td><td style =" float: right;"> Centre for Bioinformatics | Pondicherry University </td></tr>
+	 <tr><td height="50" valign="bottom"> Header background image by <a href="https://pixabay.com/users/AStoKo-1475917/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=976040" target="_blank">Andrea St&#246;ckel</a>, Webpage designing learned from <a href="https://www.w3schools.com/" target="_blank">w3schools</a>.</td></tr>
+</table>
+</div>
+  </div>
+</body>
+</html>

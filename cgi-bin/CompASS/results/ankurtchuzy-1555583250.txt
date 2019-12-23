@@ -1,0 +1,159 @@
+                                 CompASS
+               |Comp|are |A|ssigned |S|econdary |S|tructure
+
+Hey Ankur Chaurasia
+
+Length of protein : 826
+Error message : none
+
+The results for your task "state1_vs_state2" are:
+
+
+ H Alpha helix
+ G 3-10 helix
+ I PI-helix
+ E Extended conformation
+ B or b Isolated bridge
+ T Turn
+ C Coil
+
+
+************************************************************************
+***************************     ALIGNMENT     **************************
+************************************************************************
+
+
+    state1: CTTTTTTTTCEEEEEEEEEETTBTTHHHHHHHHHHCCCCCEECCCHHHHHHCTTTTEEBC  60
+    state2: CCCTTTTTTCEEEEEEEEEETTTCCHHHHHHHHHHTTTCCCCCCCHHHHHCCCCCCCCCC
+             **                   ***          ***  **        * ******* 
+        AA: PSTANGGFPSVVVTAVTATTSISPDIESTWKGLLAGESGIHALEDEFVTKWDLAVKIGGH
+
+
+    state1: TTTTGGGGCCCHHHHHCCHHHHHHHHHHHHHHHHHTTTCCCGGGEEEEEEETTTTHHHHH  120
+    state2: CCCCHHHHHCHHHHHHCCHHHHHHHHHHHHHHHHCCCCCCTTTTEEEEEECCCCCHHHHH
+            ********* *                       ****  ****      *****     
+        AA: LKDPVDSHMGRLDMRRMSYVQRMGKLLGGQLWESAGSPEVDPDRFAVVVGTGLGGAERIV
+
+
+    state1: HHHHHHHHHCGGGCCCHHHHHHCCHHHHHHHHHHHCTTTTEEEEETTTHHHHHHHHHHHH  180
+    state2: HHHHHHHTTTTTTTCCHHHHHHCHHHHHHHHHHHCCTTTTEECCCTTTTTHHHHHHHHHH
+                   *******         *          *       ***   **          
+        AA: ESYDLMNAGGPRKVSPLAVQMIMPNGAAAVIGLQLGARAGVMTPVSACSSGSEAIAHAWR
+
+
+    state1: HHHHCCCCEEEEEEECCCCCHHHHHHHHHHCCBCCTTTTGGGTTTTTBTTTCCBCBBCEE  240
+    state2: HHHHCCTTEEEEEECCCCCCHHHHHHHHHCCCBTTTCCTTTTTCTTTBTTTCCBCBCCEE
+                  **      *              *   ** ** *** *            *   
+        AA: QIVMGDADVAVCGGVEGPIEALPIAAFSMMRAMSTRNDEPERASRPFDKDRDGFVFGEAG
+
+
+    state1: EEEEEEEHHHHHHHCCCCCEEEEEEEEEECCCTTTTCTTTTHHHHHHHHHHHHHHCCCGG  300
+    state2: EEEEEEEHHHHHHHCCCCCEEEEEEEECCCBCTTTTTCCCHHHHHHHHHHHHHHHCCTTT
+                                       ** *     *****                ***
+        AA: ALMLIETEEHAKARGAKPLARLLGAGITSDAFHMVAPAADGVRAGRAMTRSLELAGLSPA
+
+
+    state1: GCCEEECCCCCCHHHHHHHHHHHHHHCTTTTEEECGGGTTTBCGGGHHHHHHHHHHHHHH  360
+    state2: TTCEEECCCCCCHHHHHHHHHHHHHHCTTTTEEETTTTTTCBTTTTTTHHHHHHHHHHHH
+            **                                ****  * ******            
+        AA: DIDHVNAHGTATPIGDAAEANAIRVAGCDQAAVYAPKSALGHSIGAVGALESVLTVLTLR
+
+
+    state1: HCEECCBTTTTTBTTTTTCCBCBCCCEECCCCEEEEEEEETTTEEEEEEEEECCCCCCCC  420
+    state2: HCEECCTTTTCCBTTTTTCCCCTTTCEECCCCEEEEEEETTTTTEEEEEEEECCCCCCCC
+                  *   **        * ***              *   *                
+        AA: DGVIPPTLNYETPDPEIDLDVVAGEPRYGDYRYAVNNSFGFGGHNVALAFGRYPSTANGG
+
+
+    state1: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCTTTTTTTTCEEEEEEEEEETTBCCHHHHH  480
+    state2: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCTTTTTTCCCEEEEEEEEEBTTBCCHHHHH
+                                                 **          *          
+        AA: FPSVVVTAVTATTSISPDIESTWKGLLAGESGIHALEDEFVTKWDLAVKIGGHLKDPVDS
+
+
+    state1: HHHHHCCCCCEECCCHHHHHHCTTTTEEBCTTTTGGGGCCHHHHHHCCHHHHHHHHHHHH  540
+    state2: HHHHCCCTTTCBTTTHHHHHCCCCCCBCBCTTTTTTTTTTHHHHHCCCHHHHHHHHHHHH
+                *  ********     * ******      ******     *              
+        AA: HMGRLDMRRMSYVQRMGKLLGGQLWESAGSPEVDPDRFAVVVGTGLGGAERIVESYDLMN
+
+
+    state1: HHHHHTTTCCCGGGEEEEEETTTTTHHHHHHHHHHHHHHCGGGCCCHHHHHHCCHHHHHH  600
+    state2: HHHHHTTTTTCGGGEEEEEEBCCCCHHHHHHHHHHHHTTTTTTTCHHHHGGGTTTHHHHH
+                    **          *****            ******* *   ******     
+        AA: AGGPRKVSPLAVQMIMPNGAAAVIGLQLGARAGVMTPVSACSSGSEAIAHAWRQIVMGDA
+
+
+    state1: HHHHHCTTTTEEEEETTTHHHHHHHHHHHHHHHHCCCCEEEEEECCCCCCHHHHHHHHHH  660
+    state2: HHHHCCBTTTEECCBTTTHHHHHHHHHHHHHHHHCCCCEEEEEECCCCCCCHHHHHHHHT
+                * *     ***                                   *        *
+        AA: DVAVCGGVEGPIEALPIAAFSMMRAMSTRNDEPERASRPFDKDRDGFVFGEAGALMLIET
+
+
+    state1: CCBCCTTTTGGGTTTTTBTTTCCBCBBCEEEEEEEEEHHHHHHHCCCCCEEEEEEEEEEC  720
+    state2: TTBCCTTTTTTTTCBTTBTTTBCBCBBCCEEEEEEEEHHHHHHHCCCCCCEEEEEEEEEC
+            **       *** **      *      *                    *          
+        AA: EEHAKARGAKPLARLLGAGITSDAFHMVAPAADGVRAGRAMTRSLELAGLSPADIDHVNA
+
+
+    state1: CCTTTTCTTTTHHHHHHHHHHHHHHCCCGGGCCEEECCCCCCHHHHHHHHHHHHHHCTTT  780
+    state2: CCTTTTCCCCCHHHHHHHHHHHHHCCCTTTTTTEEECCCCCCHHHHHHHHHHHHHHCTTT
+                   ****             *  ******                           
+        AA: HGTATPIGDAAEANAIRVAGCDQAAVYAPKSALGHSIGAVGALESVLTVLTLRDGVIPPT
+
+
+    state1: TEEECHHHHHCBCGGGHHHHHHHHHHHHHHHCEECCTTTTTTBTTT
+    state2: TCEECHHHHHCBTTTTHHHHHHHHHHHHHHTTEECCBTTTCCBTTT
+             *          ****              **    *   **    
+        AA: LNYETPDPEIDLDVVAGEPRYGDYRYAVNNSFGFGGHNVALAFGRY
+
+
+*************************************************************************
+***************************       SCORE       ***************************
+*************************************************************************
+
+
+Total Differing score 22.52%
+
+Alpha helix content:
+
+    state1         = 35.84%
+    state2         = 34.02%
+Difference         =  1.82%
+
+3-10 helix content:
+
+    state1         =  4.96%
+    state2         =  0.73%
+Difference         =  4.24%
+
+PI-helix content:
+
+    state1         =  0.00%
+    state2         =  0.00%
+Difference         =  0.00%
+
+Extended conformation content:
+
+    state1         = 16.59%
+    state2         = 13.68%
+Difference         =  2.91%
+
+Isolated bridge content:
+
+    state1         =  2.54%
+    state2         =  3.03%
+Difference         =  0.48%
+
+Turn content:
+
+    state1         = 16.95%
+    state2         = 21.55%
+Difference         =  4.60%
+
+Coil content:
+
+    state1         = 23.12%
+    state2         = 27.00%
+Difference         =  3.87%
+
+Task completed on Thu Apr 18 15:57:17 2019

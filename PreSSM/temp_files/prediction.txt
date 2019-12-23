@@ -1,0 +1,27 @@
+Target Sequence:
+
+        10         20         30         40         50         60         70 
+KVFGRCELAA AMKRHGLDNY RGYSLGNWVC AAKFESNFNT QATNRNTDGS TDYGILQINS RWWCNDGRTP 
+
+        80         90        100        110        120 
+GSRNLCNIPC SALLSSDITA SVNCAKKIVS DGNGMNAWVA WRNRCKGTDV QAWIRGCRL
+Failed to display image
+Secondary Structure:
+
+                   *         *         *         *         *         *         
+Query 1   KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTP 70 
+Helix 1       HHHHHHHHHH             HHHHHHHHHH                 HH               70 
+Sheet 1                         EEEEEEE        EEEEEEE      EEEEEEEE             70 
+Turns 1   T                                  T   T    T   T T        T     TT    70 
+Struc 1   TCCCHHHHHHHHHHCCCCCCCCEEEEEEHHHHHHHTHEEEEEEETCCCTCTEEEEEEECTCCCCCTTCCC 70 
+
+                   *         *         *         *         *         
+Query 71  GSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRCKGTDVQAWIRGCRL 129 
+Helix 71               HHHHHHHHHHHHHHHHH    HHHHHH        HH          129 
+Sheet 71      EEEE                                       EEEEEEE      129 
+Turns 71  T T            T         T    T T         T                 129 
+Struc 71  TCTCEEEECCCCCHHTHHHHHHHHHHHHHHTCTCHHHHHHCCTCCCCEHEEEEECCCCC 129 
+
+
+Total Residues: H: 47    E: 33    T: 16   
+       Percent: H: 36.4  E: 25.6  T: 12.4 
